@@ -1,3 +1,5 @@
+<?php
+
 // Include necessary files
 require_once PLUGIN_PATH . '/vendor/autoload.php';
 use Automattic\WooCommerce\Client;
