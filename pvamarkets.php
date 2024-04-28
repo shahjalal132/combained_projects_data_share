@@ -83,6 +83,11 @@ function item_list_callback() {
     $item_id = $_POST['bid_id'];
     $mode    = $_POST['mode'];
 
+    // save item_id in cookie
+    setcookie( 'item_id', $item_id, time() + 300 ); // Expires in 5 minutes (300 seconds)
+
+    put_api_response_data( $item_id );
+
     global $wpdb;
 
     $table_name = $wpdb->prefix . "accounts";
@@ -331,6 +336,7 @@ function item_list_callback() {
 
 }
 
+
 add_action( 'wp_ajax_check_accounts', 'check_accounts' );
 add_action( 'wp_ajax_nopriv_check_accounts', 'check_accounts' );
 
@@ -343,15 +349,19 @@ function check_accounts() {
     // Convert to array
     $accounts_to_check = explode( "\n", $accounts_to_check );
 
+    // get item_id from cookie
+    $itemID = isset( $_COOKIE['item_id'] ) ? $_COOKIE['item_id'] : 0;
+
     // Get accounts from database
     $table_name = $wpdb->prefix . "accounts";
-    $accounts   = $wpdb->get_results( "SELECT * FROM $table_name" );
+    $accounts   = $wpdb->get_results( $wpdb->prepare( "SELECT id, email FROM $table_name WHERE product_id = $itemID AND item_status = 'free'" ) );
 
     // Initialize count of bad emails
     $badEmailsCount = 0;
 
     // Iterate through accounts from database
     foreach ( $accounts as $account ) {
+        put_api_response_data( "account to check " . $account->email );
         // Check if the email from database matches any of the provided emails
         if ( in_array( $account->email, $accounts_to_check ) ) {
             // Update the record in the database
@@ -368,13 +378,12 @@ function check_accounts() {
     $message = '';
 
     if ( $badEmailsCount >= 0 ) {
-        $message = "Bad Accounts checked successfully. $badEmailsCount accounts found.";
+        $message = "Bad Accounts checked successfully.";
     } else {
         $message = 'No bad accounts found.';
     }
 
     // Send response
-    put_api_response_data( $message );
     echo $message;
 }
 
