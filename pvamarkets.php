@@ -86,8 +86,6 @@ function item_list_callback() {
     // save item_id in cookie
     setcookie( 'item_id', $item_id, time() + 300 ); // Expires in 5 minutes (300 seconds)
 
-    put_api_response_data( $item_id );
-
     global $wpdb;
 
     $table_name = $wpdb->prefix . "accounts";
@@ -314,8 +312,20 @@ function item_list_callback() {
                         // Hide loading spinner or message
                         $('#loading-message').text('');
 
+                        // trim response
+                        response = response.trim();
+
                         // Handle response
                         $('#response-message').text(response);
+
+                        // get response message
+                        var responseMessage = $('#response-message').text();
+
+                        // remove 0 from response message
+                        responseMessage = responseMessage.replace('0', '');
+
+                        // replace response message
+                        $('#response-message').text(responseMessage);
                     },
                     error: function (xhr, status, error) {
                         // Hide loading spinner or message
@@ -352,26 +362,31 @@ function check_accounts() {
     // get item_id from cookie
     $itemID = isset( $_COOKIE['item_id'] ) ? $_COOKIE['item_id'] : 0;
 
+    // Construct the LIKE condition dynamically
+    $like_conditions = '';
+    foreach ( $accounts_to_check as $index => $account_email ) {
+        $like_conditions .= "email LIKE '%" . esc_sql( trim( $account_email ) ) . "%'";
+        if ( $index < count( $accounts_to_check ) - 1 ) {
+            $like_conditions .= " OR ";
+        }
+    }
+
     // Get accounts from database
     $table_name = $wpdb->prefix . "accounts";
-    $accounts   = $wpdb->get_results( $wpdb->prepare( "SELECT id, email FROM $table_name WHERE product_id = $itemID AND item_status = 'free'" ) );
+    $accounts   = $wpdb->get_results( $wpdb->prepare( "SELECT id, product_id, email FROM $table_name WHERE product_id = %d AND ($like_conditions) AND item_status = 'free'", $itemID ) );
 
     // Initialize count of bad emails
     $badEmailsCount = 0;
 
     // Iterate through accounts from database
     foreach ( $accounts as $account ) {
-        put_api_response_data( "account to check " . $account->email );
-        // Check if the email from database matches any of the provided emails
-        if ( in_array( $account->email, $accounts_to_check ) ) {
-            // Update the record in the database
-            $wpdb->update(
-                $table_name,
-                array( 'item_status' => 'bad' ),
-                array( 'id' => $account->id )
-            );
-            $badEmailsCount++;
-        }
+        // Update the record in the database
+        $wpdb->update(
+            $table_name,
+            array( 'item_status' => 'bad' ),
+            array( 'id' => $account->id )
+        );
+        $badEmailsCount++;
     }
 
     // Prepare response
