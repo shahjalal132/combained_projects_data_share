@@ -1,0 +1,184 @@
+{
+  // Basic Editor Settings configuration
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Monolisa",
+  "editor.fontLigatures": true,
+  "workbench.activityBar.location": "top",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.find.autoFindInSelection": "always",
+  "diffEditor.wordWrap": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.guides.bracketPairs": "active",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "Atom One Dark",
+
+  // Cursor Animation Configuration
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "powermode.combo.location": "off",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.shake.intensity": 0,
+  "powermode.explosions.duration": 200,
+  // end cursor animation configuration
+
+  //php format options
+  "php.format.rules.addCommaAfterLastArrayElement": true,
+  "php.format.rules.arrayInitializersAlignKeyValuePairs": true,
+  "php.format.rules.arrayInitializersNewLineAfterLastElement": true,
+  "php.format.rules.arrayInitializersNewLineBeforeFirstElement": true,
+  "php.inlayHints.parameters.enabled": true,
+  "php.inlayHints.parameters.suppressNameMatchingValue": true,
+  "php.format.rules.openBraceOnNewLineForBlocks": false,
+  "php.format.rules.openBraceOnNewLineForTypes": false,
+  "php.format.rules.openBraceOnNewLineForAnonymousClasses": false,
+  "php.format.rules.openBraceOnNewLineForFunctions": false,
+  "php.format.rules.openBraceOnNewLineForLambdas": false,
+  "php.format.rules.openBraceOnNewLineForNamespaces": false,
+  "php.inlayHints.types.suppressVariableFromLiteral": false,
+  "php.format.rules.alignConstants": true,
+  "php.format.rules.alignEnumCases": true,
+  "php.format.rules.spaceAfterCast": true,
+  "php.format.rules.spaceAroundConcatenation": true,
+  "php.format.rules.spaceBeforeColonInReturnType": true,
+  "php.format.rules.spaceBeforeParenthesesInArrowFunctions": true,
+  "php.format.rules.spaceBeforeParenthesesInControlStatements": true,
+  "php.format.rules.alignConsecutiveAssignments": true,
+  "php.format.rules.arrayInitializersWrap": "on_every_item",
+  "php.format.rules.spaceBeforeColonInControlStatements": true,
+  "php.format.rules.spaceWithinArrayInitilizersParens": true,
+  "php.format.rules.spaceWithinWhileParens": true,
+  "php.format.rules.spaceWithinIfParens": true,
+  "php.format.rules.spaceWithinForParens": true,
+  "php.format.rules.spaceWithinForeachParens": true,
+  "php.format.rules.spaceWithinExpressionParens": true,
+  "php.format.rules.spaceWithinDeclParens": true,
+  "php.format.rules.spaceWithinCallParens": true,
+  "php.format.rules.alignMatchArmBodies": true,
+  "php.problems.scope": "all",
+  // php format options end
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "ABSPATH",
+    "amrod",
+    "autoloader",
+    "Cascadia",
+    "ccexp",
+    "ccnumber",
+    "checkaba",
+    "checkaccount",
+    "checkname",
+    "creditcard",
+    "CURLOPT",
+    "CUSTOMREQUEST",
+    "dashicons",
+    "echeck",
+    "Elementor",
+    "firstname",
+    "FOLLOWLOCATION",
+    "HTTPHEADER",
+    "Imjol",
+    "instock",
+    "jalal",
+    "lastname",
+    "LONGTEXT",
+    "MAXREDIRS",
+    "orderid",
+    "outofstock",
+    "ponumber",
+    "POSTFIELDS",
+    "postid",
+    "RETURNTRANSFER",
+    "Ripa",
+    "Shahjalal",
+    "shortcode",
+    "testmode",
+    "untrailingslashit",
+    "userdata",
+    "woocommerce",
+    "wpdb",
+    "WPINC",
+    "xpay"
+  ],
+  "explorer.confirmDelete": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "codeium.enableConfig": {
+    "*": true,
+    "tailwindcss": true,
+    "markdown": true,
+    "http": true,
+    "snippets": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+
+  "codeium.enableCodeLens": false,
+  "path-intellisense.absolutePathToWorkspace": true,
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "code-runner.clearPreviousOutput": true,
+  "redhat.telemetry.enabled": true,
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#fff",
+      "backgroundColor": "#fd79a8",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "DONE:",
+      "color": "#fff",
+      "backgroundColor": "#00b894",
+      "overviewRulerColor": "white"
+    },
+    {
+      "text": "FIX:",
+      "color": "#fff",
+      "backgroundColor": "#d63031",
+      "overviewRulerColor": "white"
+    },
+    {
+      "text": "REPEAT:",
+      "color": "#fff",
+      "backgroundColor": "#a29bfe",
+      "overviewRulerColor": "white"
+    },
+    {
+      "text": "Replace:",
+      "color": "#fff",
+      "backgroundColor": "#D6A2E8",
+      "overviewRulerColor": "white"
+    }
+  ],
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
