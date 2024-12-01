@@ -1,0 +1,426 @@
+{
+  "name": "Thurgoona NSW, Australia",
+  "createdDate": "2024-11-28T02:02:18.000+0000",
+  "lastModifiedDate": "2024-11-28T02:09:10.000+0000",
+  "accessibleFeatures": true,
+  "houseMates": "Tenants often choose housemates based on shared interests, lifestyle compatibility, and mutual respect for personal space and boundaries.",
+  "alarmSystem": false,
+  "automatedDoors": false,
+  "broadbandInternetAvailable": true,
+  "builtInWardrobes": true,
+  "ceilingHoist": false,
+  "commonwealthRentAssistanceAvailable": true,
+  "cooling": true,
+  "dateAvailableToMoveIn": "28/11/2024",
+  "dishwasher": true,
+  "doorwayWidthsGreaterThan1000mm": false,
+  "ductedVacuumSystem": false,
+  "emergencyPowerBackup": false,
+  "energyEfficiencyRating": null,
+  "ensuite": true,
+  "fireSprinklers": false,
+  "floorboards": false,
+  "furnished": false,
+  "genderOfHousemates": null,
+  "gym": true,
+  "hasOoa": false,
+  "heating": true,
+  "intercom": false,
+  "latitude": -36.0446583,
+  "liftAccessible": false,
+  "listingId": null,
+  "longitude": 146.9933812,
+  "lookingForAHousemate": [
+    "SOCIALISE_TOGETHER",
+    "ACTIVE_HOME",
+    "THEMSELVES",
+    "SHARE_COSTS"
+  ],
+  "mediumTermAccommodationFunding": false,
+  "numberOfBathrooms": 2,
+  "numberOfBedrooms": 4,
+  "numberOfSdaResidents": null,
+  "numberOfPeopleSharing": 2,
+  "ooaAppointmentAndReview": null,
+  "onsiteOvernightAssistance": false,
+  "outdoorArea": true,
+  "parking": 2,
+  "payTvAccess": false,
+  "petAllowed": false,
+  "postcode": "2640",
+  "propertyAvailableOptions": "BEDROOM_ONLY",
+  "propertyDescriptionLong": "<p>This spacious 4-bedroom, 2-bathroom home in Thurgoona is designed with accessibility in mind, making it an excellent choice for individuals with disabilities or anyone looking for an easy-to-navigate, independent living space. Situated on a generous 811m² lot, the property offers plenty of outdoor space while providing the comfort and convenience of modern living.</p><p>The open-plan design ensures ample room for movement and easy access throughout the home, with wide doorways and a practical layout ideal for those with mobility aids or wheelchair users. The fully equipped kitchen, featuring modern appliances, is designed for both functionality and accessibility, making meal preparation effortless.</p><p>The master bedroom includes a walk-in robe and ensuite, providing added privacy and convenience, while the other three bedrooms come with built-in robes for extra storage. There are also two spacious living areas, offering flexibility for both relaxation and entertaining.</p><p>Ducted heating and cooling ensure year-round comfort, and the home is connected to NBN Fibre to the Node for reliable high-speed internet, perfect for both work and leisure. Additionally, the property benefits from 5G mobile coverage, keeping you connected on the go.</p><p>The property includes a double car space with easy access, as well as a large, low-maintenance yard, perfect for enjoying the outdoors with minimal upkeep.</p><p><strong>Key Features for Accessible Living:</strong></p><ul><li>4 spacious bedrooms (main with walk-in robe and ensuite, others with built-in robes)</li><li>Wide doorways and accessible layout, perfect for mobility aids</li><li>Open-plan living areas ideal for relaxation and entertainment</li><li>Fully equipped kitchen with modern appliances designed for ease of use</li><li>Ducted heating and cooling for year-round comfort</li><li>NBN Fibre to the Node for reliable high-speed internet</li><li>5G mobile coverage for on-the-go connectivity</li><li>811m² lot with low-maintenance yard for easy outdoor living</li><li>Double car space with secure parking</li></ul><p>Located within the Albury Council area and in the catchment zone for Thurgoona Public School and James Fallon High School, this home is ideally suited for families, with easy access to local amenities and services.</p><p>To arrange an inspection, click on the “Book Inspection” or “Organise an Inspection” button to check available viewing times. If no times are listed, be sure to register your details to receive immediate notification when a viewing time becomes available.</p><p>This accessible and spacious home won’t last long—book your inspection today!</p>",
+  "propertyDescriptionShort": "Accessible 4-Bedroom Home – Ideal for Comfortable, Independent Living",
+  "propertyPrice": 0,
+  "propertySdaType": "NON_SDA",
+  "propertyType": "RENT",
+  "propertyVideos": null,
+  "reasonableRentContrAsSetByNdia": false,
+  "rumpusRoom": true,
+  "sdaAmount": null,
+  "sdaBuildingType": null,
+  "accommodationLength": [
+    "MEDIUM_TERM",
+    "ONGOING_LEASE",
+    "SHORT_TERM"
+  ],
+  "sdaLocation": null,
+  "sayOverWhichSUpportProviderIsOoa": false,
+  "solarHotWater": false,
+  "solarPanels": false,
+  "sprinklers": false,
+  "state": "NSW",
+  "status": "PUBLISHED",
+  "strongAndRobustConstruction": true,
+  "study": true,
+  "suburb": "Thurgoona",
+  "supportProvider": "WCSS",
+  "supportProvided": [
+    "TWENTY_FOUR_HOURS"
+  ],
+  "wheelchairAccessible": true,
+  "youDecideOnYourOwnCoreSupports": false,
+  "providerId": "a0t9600000061sYAAQ",
+  "numberOfBedroomsAvailable": 2,
+  "whoCanLiveHere": [
+    "SHARE_HOUSE_WITH_DISABILITY"
+  ],
+  "imageUrls": [
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759519/d35nqi5g66ixptynihq4.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759529/tpclg8iobf0q2ccqmw7s.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759526/yaqpcenecfixbw76eveq.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759500/j4qnv4u5vuoh33spbo8x.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759503/b575pwttjjf6cjdfjzjf.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759548/wqn3lsgwheapez9zr2cn.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759490/artashhgh6ucugonlk48.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759493/sqxb94qfzv0cci9nzdux.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759496/dbemgaptfhe0ij15dzte.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759507/czophtllkeh3inzoaiqu.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759510/htzohhnk3ktnrojnmgu1.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759514/kp7gpdqvcw28rdncflvi.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759535/qddspjz43lvylmldvshc.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759552/dcvc2bfjjtdxexwogdje.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+    "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759557/fekakhxijciuj7culoqb.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto"
+  ],
+  "publishedDate": "2024-11-28T02:09:10.000+0000",
+  "expiryDate": "2025-05-28T02:09:10.000+0000",
+  "numberOfToilets": 2,
+  "shortId": "HQCID",
+  "listingCertified": false,
+  "listingLevel": null,
+  "onsiteActiveOvernightSupport": false,
+  "ageOfHousemates": null,
+  "sdaDesignCategory": null,
+  "wheelchairAccessibleParking": 2,
+  "tagStatus": null,
+  "openForInspection": false,
+  "openForInspectionDate": null,
+  "inspectionRegisterLink": null,
+  "propertyPricePercentage": 0.25,
+  "tenantIncomePercentage": true,
+  "providerShortId": "17638",
+  "_geoloc": {
+    "lat": -36.0446583,
+    "lng": 146.9933812
+  },
+  "objectID": "a0sOn000000qxGvIAI",
+  "_highlightResult": {
+    "name": {
+      "value": "Thurgoona NSW, Australia",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "createdDate": {
+      "value": "2024-11-28T02:02:18.000+0000",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "lastModifiedDate": {
+      "value": "2024-11-28T02:09:10.000+0000",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "houseMates": {
+      "value": "Tenants often choose housemates based on shared interests, lifestyle compatibility, and mutual respect for personal space and boundaries.",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "dateAvailableToMoveIn": {
+      "value": "28/11/2024",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "latitude": {
+      "value": "-36.0446583",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "longitude": {
+      "value": "146.9933812",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "lookingForAHousemate": [
+      {
+        "value": "SOCIALISE_TOGETHER",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "ACTIVE_HOME",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "THEMSELVES",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "SHARE_COSTS",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    ],
+    "numberOfBathrooms": {
+      "value": "2",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "numberOfBedrooms": {
+      "value": "4",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "numberOfPeopleSharing": {
+      "value": "2",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "parking": {
+      "value": "2",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "postcode": {
+      "value": "2640",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "propertyAvailableOptions": {
+      "value": "BEDROOM_ONLY",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "propertyDescriptionLong": {
+      "value": "<p>This spacious 4-bedroom, 2-bathroom home in Thurgoona is designed with accessibility in mind, making it an excellent choice for individuals with disabilities or anyone looking for an easy-to-navigate, independent living space. Situated on a generous 811m² lot, the property offers plenty of outdoor space while providing the comfort and convenience of modern living.</p><p>The open-plan design ensures ample room for movement and easy access throughout the home, with wide doorways and a practical layout ideal for those with mobility aids or wheelchair users. The fully equipped kitchen, featuring modern appliances, is designed for both functionality and accessibility, making meal preparation effortless.</p><p>The master bedroom includes a walk-in robe and ensuite, providing added privacy and convenience, while the other three bedrooms come with built-in robes for extra storage. There are also two spacious living areas, offering flexibility for both relaxation and entertaining.</p><p>Ducted heating and cooling ensure year-round comfort, and the home is connected to NBN Fibre to the Node for reliable high-speed internet, perfect for both work and leisure. Additionally, the property benefits from 5G mobile coverage, keeping you connected on the go.</p><p>The property includes a double car space with easy access, as well as a large, low-maintenance yard, perfect for enjoying the outdoors with minimal upkeep.</p><p><strong>Key Features for Accessible Living:</strong></p><ul><li>4 spacious bedrooms (main with walk-in robe and ensuite, others with built-in robes)</li><li>Wide doorways and accessible layout, perfect for mobility aids</li><li>Open-plan living areas ideal for relaxation and entertainment</li><li>Fully equipped kitchen with modern appliances designed for ease of use</li><li>Ducted heating and cooling for year-round comfort</li><li>NBN Fibre to the Node for reliable high-speed internet</li><li>5G mobile coverage for on-the-go connectivity</li><li>811m² lot with low-maintenance yard for easy outdoor living</li><li>Double car space with secure parking</li></ul><p>Located within the Albury Council area and in the catchment zone for Thurgoona Public School and James Fallon High School, this home is ideally suited for families, with easy access to local amenities and services.</p><p>To arrange an inspection, click on the “Book Inspection” or “Organise an Inspection” button to check available viewing times. If no times are listed, be sure to register your details to receive immediate notification when a viewing time becomes available.</p><p>This accessible and spacious home won’t last long—book your inspection today!</p>",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "propertyDescriptionShort": {
+      "value": "Accessible 4-Bedroom Home – Ideal for Comfortable, Independent Living",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "propertyPrice": {
+      "value": "0",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "propertySdaType": {
+      "value": "NON_SDA",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "propertyType": {
+      "value": "RENT",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "accommodationLength": [
+      {
+        "value": "MEDIUM_TERM",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "ONGOING_LEASE",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "SHORT_TERM",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    ],
+    "state": {
+      "value": "NSW",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "status": {
+      "value": "PUBLISHED",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "suburb": {
+      "value": "Thurgoona",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "supportProvider": {
+      "value": "WCSS",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "supportProvided": [
+      {
+        "value": "TWENTY_FOUR_HOURS",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    ],
+    "providerId": {
+      "value": "a0t9600000061sYAAQ",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "numberOfBedroomsAvailable": {
+      "value": "2",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "whoCanLiveHere": [
+      {
+        "value": "SHARE_HOUSE_WITH_DISABILITY",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    ],
+    "imageUrls": [
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759519/d35nqi5g66ixptynihq4.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759529/tpclg8iobf0q2ccqmw7s.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759526/yaqpcenecfixbw76eveq.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759500/j4qnv4u5vuoh33spbo8x.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759503/b575pwttjjf6cjdfjzjf.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759548/wqn3lsgwheapez9zr2cn.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759490/artashhgh6ucugonlk48.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759493/sqxb94qfzv0cci9nzdux.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759496/dbemgaptfhe0ij15dzte.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759507/czophtllkeh3inzoaiqu.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759510/htzohhnk3ktnrojnmgu1.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759514/kp7gpdqvcw28rdncflvi.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759535/qddspjz43lvylmldvshc.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759552/dcvc2bfjjtdxexwogdje.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      {
+        "value": "https://res.cloudinary.com/hc4clemkt/image/upload/v1732759557/fekakhxijciuj7culoqb.webp?f_auto?f_auto&q_auto&w_1000&dpr_auto",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    ],
+    "publishedDate": {
+      "value": "2024-11-28T02:09:10.000+0000",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "expiryDate": {
+      "value": "2025-05-28T02:09:10.000+0000",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "numberOfToilets": {
+      "value": "2",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "shortId": {
+      "value": "HQCID",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "wheelchairAccessibleParking": {
+      "value": "2",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "propertyPricePercentage": {
+      "value": "0.25",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "providerShortId": {
+      "value": "17638",
+      "matchLevel": "none",
+      "matchedWords": []
+    },
+    "_geoloc": {
+      "lat": {
+        "value": "-36.0446583",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "lng": {
+        "value": "146.9933812",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  }
+}
